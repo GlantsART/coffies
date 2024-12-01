@@ -14,12 +14,22 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QTableWidget" name="tab">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>10</x>
+      <y>60</y>
+      <width>751</width>
+      <height>481</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="change">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
       <y>20</y>
-      <width>121</width>
+      <width>351</width>
       <height>31</height>
      </rect>
     </property>
@@ -29,17 +39,25 @@
      </font>
     </property>
     <property name="text">
-     <string>Показать</string>
+     <string>Изменить</string>
     </property>
    </widget>
-   <widget class="QTableWidget" name="tab">
+   <widget class="QPushButton" name="showANDupdate">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>60</y>
-      <width>751</width>
-      <height>481</height>
+      <x>30</x>
+      <y>20</y>
+      <width>351</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Показать / обновить</string>
     </property>
    </widget>
   </widget>
